@@ -1,0 +1,12 @@
+<div ng-controller="KbnPostitVisController" class="postit-vis" style="width:100%">
+<ul class="ul">
+  <div ng-repeat="note in notes" class="postit">
+    <li class="li">
+      <a class="a" href="#" ng-style="getColor($index)">
+        <h2 class="h2" ng-style="labelStyle">{{note.label}}</h2>
+        <p class="p" ng-style="valueStyle">{{note.value}}</p>
+      </a>
+    </li>
+  </div>
+</ul>
+</div>

@@ -1,0 +1,14 @@
+{
+  "name": "postit_vis",
+  "version": "kibana",
+  "authors": [
+    "Juan Carniglia <juan.carniglia@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JuanCarniglia/postit_vis.git"
+  },
+  "description": "Display nice post-it notes - Visualization Plugin",
+  "main": "index.js",
+  "license": "Apache-2.0"
+}
